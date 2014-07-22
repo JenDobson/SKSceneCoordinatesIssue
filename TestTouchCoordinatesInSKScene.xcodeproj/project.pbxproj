@@ -1,0 +1,455 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BD6E97D3197DE8F000044762 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD6E97D2197DE8F000044762 /* Foundation.framework */; };
+		BD6E97D5197DE8F000044762 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD6E97D4197DE8F000044762 /* CoreGraphics.framework */; };
+		BD6E97D7197DE8F000044762 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD6E97D6197DE8F000044762 /* UIKit.framework */; };
+		BD6E97DD197DE8F000044762 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BD6E97DB197DE8F000044762 /* InfoPlist.strings */; };
+		BD6E97DF197DE8F000044762 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BD6E97DE197DE8F000044762 /* main.m */; };
+		BD6E97E3197DE8F000044762 /* JDLSAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BD6E97E2197DE8F000044762 /* JDLSAppDelegate.m */; };
+		BD6E97E5197DE8F000044762 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD6E97E4197DE8F000044762 /* Images.xcassets */; };
+		BD6E97EC197DE8F000044762 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD6E97EB197DE8F000044762 /* XCTest.framework */; };
+		BD6E97ED197DE8F000044762 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD6E97D2197DE8F000044762 /* Foundation.framework */; };
+		BD6E97EE197DE8F000044762 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD6E97D6197DE8F000044762 /* UIKit.framework */; };
+		BD6E97F6197DE8F000044762 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BD6E97F4197DE8F000044762 /* InfoPlist.strings */; };
+		BD6E97F8197DE8F000044762 /* TestTouchCoordinatesInSKSceneTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BD6E97F7197DE8F000044762 /* TestTouchCoordinatesInSKSceneTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BD6E97EF197DE8F000044762 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BD6E97C7197DE8F000044762 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BD6E97CE197DE8F000044762;
+			remoteInfo = TestTouchCoordinatesInSKScene;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BD6E97CF197DE8F000044762 /* TestTouchCoordinatesInSKScene.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestTouchCoordinatesInSKScene.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD6E97D2197DE8F000044762 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		BD6E97D4197DE8F000044762 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		BD6E97D6197DE8F000044762 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		BD6E97DA197DE8F000044762 /* TestTouchCoordinatesInSKScene-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TestTouchCoordinatesInSKScene-Info.plist"; sourceTree = "<group>"; };
+		BD6E97DC197DE8F000044762 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BD6E97DE197DE8F000044762 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BD6E97E0197DE8F000044762 /* TestTouchCoordinatesInSKScene-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TestTouchCoordinatesInSKScene-Prefix.pch"; sourceTree = "<group>"; };
+		BD6E97E1197DE8F000044762 /* JDLSAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JDLSAppDelegate.h; sourceTree = "<group>"; };
+		BD6E97E2197DE8F000044762 /* JDLSAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JDLSAppDelegate.m; sourceTree = "<group>"; };
+		BD6E97E4197DE8F000044762 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		BD6E97EA197DE8F000044762 /* TestTouchCoordinatesInSKSceneTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestTouchCoordinatesInSKSceneTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD6E97EB197DE8F000044762 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		BD6E97F3197DE8F000044762 /* TestTouchCoordinatesInSKSceneTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TestTouchCoordinatesInSKSceneTests-Info.plist"; sourceTree = "<group>"; };
+		BD6E97F5197DE8F000044762 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BD6E97F7197DE8F000044762 /* TestTouchCoordinatesInSKSceneTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestTouchCoordinatesInSKSceneTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BD6E97CC197DE8F000044762 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD6E97D5197DE8F000044762 /* CoreGraphics.framework in Frameworks */,
+				BD6E97D7197DE8F000044762 /* UIKit.framework in Frameworks */,
+				BD6E97D3197DE8F000044762 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD6E97E7197DE8F000044762 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD6E97EC197DE8F000044762 /* XCTest.framework in Frameworks */,
+				BD6E97EE197DE8F000044762 /* UIKit.framework in Frameworks */,
+				BD6E97ED197DE8F000044762 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BD6E97C6197DE8F000044762 = {
+			isa = PBXGroup;
+			children = (
+				BD6E97D8197DE8F000044762 /* TestTouchCoordinatesInSKScene */,
+				BD6E97F1197DE8F000044762 /* TestTouchCoordinatesInSKSceneTests */,
+				BD6E97D1197DE8F000044762 /* Frameworks */,
+				BD6E97D0197DE8F000044762 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BD6E97D0197DE8F000044762 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BD6E97CF197DE8F000044762 /* TestTouchCoordinatesInSKScene.app */,
+				BD6E97EA197DE8F000044762 /* TestTouchCoordinatesInSKSceneTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BD6E97D1197DE8F000044762 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BD6E97D2197DE8F000044762 /* Foundation.framework */,
+				BD6E97D4197DE8F000044762 /* CoreGraphics.framework */,
+				BD6E97D6197DE8F000044762 /* UIKit.framework */,
+				BD6E97EB197DE8F000044762 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BD6E97D8197DE8F000044762 /* TestTouchCoordinatesInSKScene */ = {
+			isa = PBXGroup;
+			children = (
+				BD6E97E1197DE8F000044762 /* JDLSAppDelegate.h */,
+				BD6E97E2197DE8F000044762 /* JDLSAppDelegate.m */,
+				BD6E97E4197DE8F000044762 /* Images.xcassets */,
+				BD6E97D9197DE8F000044762 /* Supporting Files */,
+			);
+			path = TestTouchCoordinatesInSKScene;
+			sourceTree = "<group>";
+		};
+		BD6E97D9197DE8F000044762 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BD6E97DA197DE8F000044762 /* TestTouchCoordinatesInSKScene-Info.plist */,
+				BD6E97DB197DE8F000044762 /* InfoPlist.strings */,
+				BD6E97DE197DE8F000044762 /* main.m */,
+				BD6E97E0197DE8F000044762 /* TestTouchCoordinatesInSKScene-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BD6E97F1197DE8F000044762 /* TestTouchCoordinatesInSKSceneTests */ = {
+			isa = PBXGroup;
+			children = (
+				BD6E97F7197DE8F000044762 /* TestTouchCoordinatesInSKSceneTests.m */,
+				BD6E97F2197DE8F000044762 /* Supporting Files */,
+			);
+			path = TestTouchCoordinatesInSKSceneTests;
+			sourceTree = "<group>";
+		};
+		BD6E97F2197DE8F000044762 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BD6E97F3197DE8F000044762 /* TestTouchCoordinatesInSKSceneTests-Info.plist */,
+				BD6E97F4197DE8F000044762 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BD6E97CE197DE8F000044762 /* TestTouchCoordinatesInSKScene */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD6E97FB197DE8F000044762 /* Build configuration list for PBXNativeTarget "TestTouchCoordinatesInSKScene" */;
+			buildPhases = (
+				BD6E97CB197DE8F000044762 /* Sources */,
+				BD6E97CC197DE8F000044762 /* Frameworks */,
+				BD6E97CD197DE8F000044762 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TestTouchCoordinatesInSKScene;
+			productName = TestTouchCoordinatesInSKScene;
+			productReference = BD6E97CF197DE8F000044762 /* TestTouchCoordinatesInSKScene.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BD6E97E9197DE8F000044762 /* TestTouchCoordinatesInSKSceneTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD6E97FE197DE8F000044762 /* Build configuration list for PBXNativeTarget "TestTouchCoordinatesInSKSceneTests" */;
+			buildPhases = (
+				BD6E97E6197DE8F000044762 /* Sources */,
+				BD6E97E7197DE8F000044762 /* Frameworks */,
+				BD6E97E8197DE8F000044762 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BD6E97F0197DE8F000044762 /* PBXTargetDependency */,
+			);
+			name = TestTouchCoordinatesInSKSceneTests;
+			productName = TestTouchCoordinatesInSKSceneTests;
+			productReference = BD6E97EA197DE8F000044762 /* TestTouchCoordinatesInSKSceneTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BD6E97C7197DE8F000044762 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = JDLS;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Jennifer Dobson";
+				TargetAttributes = {
+					BD6E97E9197DE8F000044762 = {
+						TestTargetID = BD6E97CE197DE8F000044762;
+					};
+				};
+			};
+			buildConfigurationList = BD6E97CA197DE8F000044762 /* Build configuration list for PBXProject "TestTouchCoordinatesInSKScene" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = BD6E97C6197DE8F000044762;
+			productRefGroup = BD6E97D0197DE8F000044762 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BD6E97CE197DE8F000044762 /* TestTouchCoordinatesInSKScene */,
+				BD6E97E9197DE8F000044762 /* TestTouchCoordinatesInSKSceneTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BD6E97CD197DE8F000044762 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD6E97DD197DE8F000044762 /* InfoPlist.strings in Resources */,
+				BD6E97E5197DE8F000044762 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD6E97E8197DE8F000044762 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD6E97F6197DE8F000044762 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BD6E97CB197DE8F000044762 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD6E97DF197DE8F000044762 /* main.m in Sources */,
+				BD6E97E3197DE8F000044762 /* JDLSAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD6E97E6197DE8F000044762 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD6E97F8197DE8F000044762 /* TestTouchCoordinatesInSKSceneTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BD6E97F0197DE8F000044762 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BD6E97CE197DE8F000044762 /* TestTouchCoordinatesInSKScene */;
+			targetProxy = BD6E97EF197DE8F000044762 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BD6E97DB197DE8F000044762 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BD6E97DC197DE8F000044762 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		BD6E97F4197DE8F000044762 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BD6E97F5197DE8F000044762 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BD6E97F9197DE8F000044762 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		BD6E97FA197DE8F000044762 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BD6E97FC197DE8F000044762 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TestTouchCoordinatesInSKScene/TestTouchCoordinatesInSKScene-Prefix.pch";
+				INFOPLIST_FILE = "TestTouchCoordinatesInSKScene/TestTouchCoordinatesInSKScene-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		BD6E97FD197DE8F000044762 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TestTouchCoordinatesInSKScene/TestTouchCoordinatesInSKScene-Prefix.pch";
+				INFOPLIST_FILE = "TestTouchCoordinatesInSKScene/TestTouchCoordinatesInSKScene-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		BD6E97FF197DE8F000044762 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TestTouchCoordinatesInSKScene.app/TestTouchCoordinatesInSKScene";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TestTouchCoordinatesInSKScene/TestTouchCoordinatesInSKScene-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "TestTouchCoordinatesInSKSceneTests/TestTouchCoordinatesInSKSceneTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		BD6E9800197DE8F000044762 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TestTouchCoordinatesInSKScene.app/TestTouchCoordinatesInSKScene";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TestTouchCoordinatesInSKScene/TestTouchCoordinatesInSKScene-Prefix.pch";
+				INFOPLIST_FILE = "TestTouchCoordinatesInSKSceneTests/TestTouchCoordinatesInSKSceneTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BD6E97CA197DE8F000044762 /* Build configuration list for PBXProject "TestTouchCoordinatesInSKScene" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD6E97F9197DE8F000044762 /* Debug */,
+				BD6E97FA197DE8F000044762 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BD6E97FB197DE8F000044762 /* Build configuration list for PBXNativeTarget "TestTouchCoordinatesInSKScene" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD6E97FC197DE8F000044762 /* Debug */,
+				BD6E97FD197DE8F000044762 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BD6E97FE197DE8F000044762 /* Build configuration list for PBXNativeTarget "TestTouchCoordinatesInSKSceneTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD6E97FF197DE8F000044762 /* Debug */,
+				BD6E9800197DE8F000044762 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BD6E97C7197DE8F000044762 /* Project object */;
+}
