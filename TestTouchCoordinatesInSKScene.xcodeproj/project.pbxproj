@@ -12,13 +12,15 @@
 		BD6E97D7197DE8F000044762 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD6E97D6197DE8F000044762 /* UIKit.framework */; };
 		BD6E97DD197DE8F000044762 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BD6E97DB197DE8F000044762 /* InfoPlist.strings */; };
 		BD6E97DF197DE8F000044762 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BD6E97DE197DE8F000044762 /* main.m */; };
-		BD6E97E3197DE8F000044762 /* JDLSAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BD6E97E2197DE8F000044762 /* JDLSAppDelegate.m */; };
+		BD6E97E3197DE8F000044762 /* MyAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BD6E97E2197DE8F000044762 /* MyAppDelegate.m */; };
 		BD6E97E5197DE8F000044762 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD6E97E4197DE8F000044762 /* Images.xcassets */; };
 		BD6E97EC197DE8F000044762 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD6E97EB197DE8F000044762 /* XCTest.framework */; };
 		BD6E97ED197DE8F000044762 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD6E97D2197DE8F000044762 /* Foundation.framework */; };
 		BD6E97EE197DE8F000044762 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD6E97D6197DE8F000044762 /* UIKit.framework */; };
 		BD6E97F6197DE8F000044762 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BD6E97F4197DE8F000044762 /* InfoPlist.strings */; };
 		BD6E97F8197DE8F000044762 /* TestTouchCoordinatesInSKSceneTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BD6E97F7197DE8F000044762 /* TestTouchCoordinatesInSKSceneTests.m */; };
+		BD6E9803197DE95500044762 /* MyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BD6E9802197DE95500044762 /* MyViewController.m */; };
+		BD6E9806197DEA0700044762 /* MyMainMenuScene.m in Sources */ = {isa = PBXBuildFile; fileRef = BD6E9805197DEA0700044762 /* MyMainMenuScene.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,14 +42,18 @@
 		BD6E97DC197DE8F000044762 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		BD6E97DE197DE8F000044762 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		BD6E97E0197DE8F000044762 /* TestTouchCoordinatesInSKScene-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TestTouchCoordinatesInSKScene-Prefix.pch"; sourceTree = "<group>"; };
-		BD6E97E1197DE8F000044762 /* JDLSAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JDLSAppDelegate.h; sourceTree = "<group>"; };
-		BD6E97E2197DE8F000044762 /* JDLSAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JDLSAppDelegate.m; sourceTree = "<group>"; };
+		BD6E97E1197DE8F000044762 /* MyAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyAppDelegate.h; sourceTree = "<group>"; };
+		BD6E97E2197DE8F000044762 /* MyAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyAppDelegate.m; sourceTree = "<group>"; };
 		BD6E97E4197DE8F000044762 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		BD6E97EA197DE8F000044762 /* TestTouchCoordinatesInSKSceneTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestTouchCoordinatesInSKSceneTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD6E97EB197DE8F000044762 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		BD6E97F3197DE8F000044762 /* TestTouchCoordinatesInSKSceneTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TestTouchCoordinatesInSKSceneTests-Info.plist"; sourceTree = "<group>"; };
 		BD6E97F5197DE8F000044762 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		BD6E97F7197DE8F000044762 /* TestTouchCoordinatesInSKSceneTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestTouchCoordinatesInSKSceneTests.m; sourceTree = "<group>"; };
+		BD6E9801197DE95500044762 /* MyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyViewController.h; sourceTree = "<group>"; };
+		BD6E9802197DE95500044762 /* MyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyViewController.m; sourceTree = "<group>"; };
+		BD6E9804197DEA0700044762 /* MyMainMenuScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyMainMenuScene.h; sourceTree = "<group>"; };
+		BD6E9805197DEA0700044762 /* MyMainMenuScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyMainMenuScene.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,8 +113,12 @@
 		BD6E97D8197DE8F000044762 /* TestTouchCoordinatesInSKScene */ = {
 			isa = PBXGroup;
 			children = (
-				BD6E97E1197DE8F000044762 /* JDLSAppDelegate.h */,
-				BD6E97E2197DE8F000044762 /* JDLSAppDelegate.m */,
+				BD6E97E1197DE8F000044762 /* MyAppDelegate.h */,
+				BD6E97E2197DE8F000044762 /* MyAppDelegate.m */,
+				BD6E9801197DE95500044762 /* MyViewController.h */,
+				BD6E9802197DE95500044762 /* MyViewController.m */,
+				BD6E9804197DEA0700044762 /* MyMainMenuScene.h */,
+				BD6E9805197DEA0700044762 /* MyMainMenuScene.m */,
 				BD6E97E4197DE8F000044762 /* Images.xcassets */,
 				BD6E97D9197DE8F000044762 /* Supporting Files */,
 			);
@@ -240,8 +250,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BD6E9803197DE95500044762 /* MyViewController.m in Sources */,
 				BD6E97DF197DE8F000044762 /* main.m in Sources */,
-				BD6E97E3197DE8F000044762 /* JDLSAppDelegate.m in Sources */,
+				BD6E9806197DEA0700044762 /* MyMainMenuScene.m in Sources */,
+				BD6E97E3197DE8F000044762 /* MyAppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -440,6 +452,7 @@
 				BD6E97FD197DE8F000044762 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BD6E97FE197DE8F000044762 /* Build configuration list for PBXNativeTarget "TestTouchCoordinatesInSKSceneTests" */ = {
 			isa = XCConfigurationList;
@@ -448,6 +461,7 @@
 				BD6E9800197DE8F000044762 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
