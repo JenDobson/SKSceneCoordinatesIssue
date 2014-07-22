@@ -6,9 +6,10 @@
 //  Copyright (c) 2014 Jennifer Dobson. All rights reserved.
 //
 
-#import "JDLSAppDelegate.h"
+#import "MyAppDelegate.h"
+#import "MyViewController.h"
 
-@implementation JDLSAppDelegate
+@implementation MyAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
@@ -16,6 +17,10 @@
     // Override point for customization after application launch.
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
+    
+    MyViewController *vc = [[MyViewController alloc] init];
+    self.window.rootViewController = vc;
+    
     return YES;
 }
 

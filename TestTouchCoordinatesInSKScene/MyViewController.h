@@ -10,4 +10,6 @@
 
 @interface MyViewController : UIViewController
 
+-(void)returnToMainMenu;
+
 @end

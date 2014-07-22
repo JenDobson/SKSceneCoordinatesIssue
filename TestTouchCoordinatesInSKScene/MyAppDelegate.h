@@ -1,5 +1,5 @@
 //
-//  JDLSAppDelegate.h
+//  MyAppDelegate.h
 //  TestTouchCoordinatesInSKScene
 //
 //  Created by Jennifer Dobson on 7/21/14.
@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface JDLSAppDelegate : UIResponder <UIApplicationDelegate>
+@interface MyAppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
 

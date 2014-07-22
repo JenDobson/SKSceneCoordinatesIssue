@@ -7,8 +7,12 @@
 //
 
 #import "MyViewController.h"
+#import <SpriteKit/SpriteKit.h>
+#import "MyMainMenuScene.h"
 
 @interface MyViewController ()
+
+@property (nonatomic, strong) MyMainMenuScene *mainMenuScene;
 
 @end
 
@@ -27,6 +31,19 @@
 {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    SKView* skView = (SKView *)self.view;
+    skView.showsFPS = YES;
+    skView.showsNodeCount = YES;
+    
+    CGSize contentSize = CGSizeMake(skView.bounds.size.width,skView.bounds.size.height);
+    
+    _mainMenuScene = [MyMainMenuScene sceneWithSize:contentSize];
+    _mainMenuScene.controller = self;
+    _mainMenuScene.scaleMode = SKSceneScaleModeAspectFill;
+    
+    
+    [skView presentScene:_mainMenuScene];
+
 }
 
 - (void)didReceiveMemoryWarning
@@ -35,6 +52,18 @@
     // Dispose of any resources that can be recreated.
 }
 
+-(void)loadView
+{
+    CGRect viewFrame = CGRectMake(0, 0, [UIScreen mainScreen].bounds.size.height, [UIScreen mainScreen].bounds.size.width);
+    SKView* view = [[SKView alloc] initWithFrame:viewFrame];
+    self.view = view;
+}
+
+-(void)returnToMainMenu
+{
+    [(SKView*)self.view presentScene:_mainMenuScene transition:[SKTransition moveInWithDirection:SKTransitionDirectionRight duration:.3]];
+
+}
 /*
 #pragma mark - Navigation
 
